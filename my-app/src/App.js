@@ -61,15 +61,32 @@ function App() {
             rows="4"
             placeholder="How can we help you?"
           ></textarea>
+
           <br />
           <button type="submit">Send</button>
         </form>
 
       </div>
 
+      <div className="mid_container">
+        <h3>Miscellaneous notes</h3><br/>
+        <h4>It seems that it is possible to implement email<br/>
+           functionality on the front end only by using EmailJS, <br/>
+           an email program that runs entirely on JavaScript. <br/>
+           So I created one to practice using JavaScript.</h4>
+
+      </div>
+
       <div className="three_container">
         <div className="item">
-          <p>My GitAccount</p>
+          <p>GitHub</p>
+          <a
+            href="https://github.com/yamanaka-ken/test.git"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My GitAccount
+          </a>
         </div>
         <div className="item">
           <p>My organization</p>

@@ -43,6 +43,22 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
 
+  .mid_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    /* background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  .flex{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+  }
 
 
 

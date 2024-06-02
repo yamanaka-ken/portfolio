@@ -24,7 +24,14 @@ h3 {
   margin: auto;
   padding: 15px;
   text-align: center;
-  transition: font-size 1s, transform 1s;
+
+}
+
+h4 {
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+
 }
 
 
@@ -55,8 +62,8 @@ color: #fff;
 font-size: 18px;
 border: 0;
 outline: none;
-width: 500px;
+width: 100px;
 margin: auto;
-
+border-radius: 40%;
 
 }
