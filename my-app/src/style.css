@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: flex-start;
     margin: 20px 0;
-    padding: 20px;
+    padding: 50px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -56,10 +56,24 @@
 
   .flex{
     display: flex;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
   }
 
+  .hr1 {
+    height: 3px;
+    border-width: 0;
+    background-color: #f3ecec;
+    background-image: -webkit-linear-gradient(right,
+    #ddd6d6 5px,#855454 5px);
+    background-image: linear-gradient(-90deg,
+    #ddd6d6 5px,#855454 5px);
+    background-size: 10px 10px;
+  }
+
+  .wrapper{
+    display: flex;
+  }
 
 
   
