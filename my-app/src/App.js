@@ -1,6 +1,9 @@
 // src/App.js
 import "./index.css";
 import "./style.css";
+import './App.css';
+import EmailForm from './EmailForm';
+import ImageSwitching from './ImageSwitching';
 import React, { useEffect } from "react";
 
 function App() {
@@ -42,29 +45,13 @@ function App() {
         </div>
 
         <div className="right">
-          <p>This is the right section with hobbies and other information.</p>
-          <img src="./圧縮サンプル画像.jpeg" width="500" alt="food" />
+          <p>I like to eat.</p>
+          <ImageSwitching />
         </div>
       </div>
 
       <div className="container">
-        <form onsubmit="sendEmail(); reset(); return false;">
-          <h3>Get in touch</h3>
-          <input type="text" id="name" placeholder="Your Name" required />
-          <br />
-          <input type="email" id="email" placeholder="Email id" required />
-          <br />
-          <input type="text" id="phone" placeholder="Phone no." required />
-          <br />
-          <textarea
-            id="message"
-            rows="4"
-            placeholder="How can we help you?"
-          ></textarea>
-
-          <br />
-          <button type="submit">Send</button>
-        </form>
+        <EmailForm />
 
       </div>
 
