@@ -2,44 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="logo192.png" />
+    <img src="./logo192.png" width="50" alt="React"/>
     <title>Portfolio</title>
   </head>
   <body>
-    <div id="test">
-      <h1 class="main-title">Welcome to my portfolio!</h1>
-      <h2 class="sub-title">Let me introduce myself.</h2>
-    </div>
-    <div class="container">
-      <div class="left">
-        <p>This is the left section with some text.<br />
-          This is the left section with some text.<br />
-          This is the left section with some text.<br />
-        This is the left section with some text.</p>
-        
-      </div>
-      <div class="right">
-        <p>This is the right section with hobbies and other information.</p>
-      </div>
-    </div>
-    <script>
-      // JavaScriptコード
-      document.addEventListener("DOMContentLoaded", function() {
-        const h1 = document.querySelector(".main-title");
-        const h2 = document.querySelector(".sub-title");
-
-        // Adding animation class to h1 and h2
-        h1.classList.add("animated");
-        h2.classList.add("animated");
-
-        // Changing font size with a delay for animation effect
-        setTimeout(() => {
-          h1.style.fontSize = "3em";
-          h1.style.transform = "scale(1.2)";
-          h2.style.fontSize = "2em";
-          h2.style.transform = "scale(1.1)";
-        }, 1000);
-      });
-    </script>
+    <div id="root"></div>
   </body>
 </html>
