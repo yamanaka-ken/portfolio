@@ -45,7 +45,7 @@ const EmailForm = () => {
       <br />
       <textarea name="message" rows="4" placeholder="How can we help you?" value={formData.message} onChange={handleChange} required></textarea>
       <br />
-      <button type="submit">Send Email</button>
+      <button type="submit">Send</button>
     </form>
   );
 };

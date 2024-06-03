@@ -55,6 +55,7 @@ function App() {
                   <li>C</li>
                   <li>C++</li>
                   <li>JavaScript</li>
+                  <li>STM32</li>
                   </ul>
                 </div>
                 <div className="right">
