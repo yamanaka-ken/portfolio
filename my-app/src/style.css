@@ -116,3 +116,12 @@
     transform: translateX(-50%);
   }
   
+  .example_img{
+    max-width: 80%;
+    position: relative;
+    height: auto;
+    display: flex; 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}

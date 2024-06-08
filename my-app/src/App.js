@@ -4,6 +4,8 @@ import "./style.css";
 import './App.css';
 import EmailForm from './EmailForm';
 import ImageSwitching from './ImageSwitching';
+import Page1 from './Page1';
+import Page2 from './Page2';
 import React, { useEffect } from "react";
 
 function App() {
@@ -24,58 +26,14 @@ function App() {
         <h1 className="main-title">Welcome to my portfolio!</h1>
         <h2 className="sub-title">Let me introduce myself.</h2>
       </div>
+      
+
+      <div>
+        <Page1 />        
+
+      </div>
       <div className="container">
-        <div className="left">
-          <div className="theme">
-            <p>Ken Yamanaka</p>
-          </div>
-          <p className="medium-font">
-          I am a first year graduate student and my major is electrical circuits.
-           I am exposed to programming with code and microcontrollers to analyze in experiments. 
-           In this portfolio, I will write about my skills and hobbies.
-          </p>
-          <div className="hr1"></div>
-          <p className="medium-font">
-            <strong>QUALUFICATION</strong>
-            <ul class="cp_list">
-            <li>Fundamental Information Technology Engineer Examination</li>
-            <li>TOEIC(L&R): Score 775</li>
-            <li>driver's license</li>
-            <li>Bachelor's degree</li>
-            </ul>
-            
-          </p>
-          <p className="medium-font">
-            <strong>SKILLS</strong>
-
-            <div className="wrapper">
-              <div className="left">
-                  <ul class="cp_list">
-                  <li>Python</li>
-                  <li>C</li>
-                  <li>C++</li>
-                  <li>JavaScript</li>
-                  <li>STM32</li>
-                  </ul>
-                </div>
-                <div className="right">
-                  <ul class="cp_list">
-                  <li>PSIM(Circuit-Simulater)</li>
-                  <li>LTSPice(Circuit-Simulater)</li>
-                  <li>MATLAB</li>
-                  <li>React</li>
-                  </ul>
-                </div>
-            </div>
- 
-          </p>
-
-        </div>
-
-        <div className="right">
-          <p>My hobbies..</p>
-          <ImageSwitching />
-        </div>
+        <Page2 />
       </div>
 
       <div className="container">

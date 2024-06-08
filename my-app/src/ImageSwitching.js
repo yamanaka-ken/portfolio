@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const ImageSwitching = () => {
-  const picsSrc = ["./圧縮サンプル1.jpeg", "./圧縮サンプル2.JPG", "./圧縮サンプル3.jpg"];
+  const picsSrc = ["./logo192.png", "./logo512.png"];
   const [num, setNum] = useState(0);
 
   useEffect(() => {

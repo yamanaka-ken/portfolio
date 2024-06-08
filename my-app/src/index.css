@@ -20,6 +20,7 @@ h1, h2 {
   transition: font-size 1s, transform 1s;
 }
 
+
 h3 {
   margin: auto;
   padding: 15px;
@@ -88,3 +89,9 @@ ul.cp_list li:before {
 	border-color: transparent transparent transparent #3F51B5;
 }
 
+#absolute{
+  position: absolute;
+  top: 0;
+  right:0;
+  margin:5px;
+}
