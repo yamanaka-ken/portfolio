@@ -22,7 +22,12 @@ function App() {
         <h2 className="sub-title">Let me introduce myself.</h2>
       </div>
       <div className="container">
-        <div className="left">
+
+      <div className="right">
+          <p>This is the right section with hobbies and other information.</p>
+          <img src="./圧縮サンプル画像.jpeg" width="500" alt="food" />
+      </div>
+      <div className="left">
           <div className="theme">
             <p>My hobbies</p>
           </div>
@@ -35,16 +40,12 @@ function App() {
           <p className="medium-font">23 years old</p>
           <div className="theme">
             <p>Majoring</p>
-          </div>
+         </div>
           <p className="medium-font">
             Electronics(the diagnoisis of lithium-ion battery)
           </p>
-        </div>
+      </div>
 
-        <div className="right">
-          <p>This is the right section with hobbies and other information.</p>
-          <img src="./圧縮サンプル画像.jpeg" width="500" alt="food" />
-        </div>
       </div>
 
       <div className="container">
