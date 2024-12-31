@@ -8,12 +8,26 @@
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
   }
   
   .left, .right {
-    width: 45%;
+    width: 100%;
+
   }
   
+  .resizeimage img{
+    width: 35vw;
+    margin: auto;
+    
+  }
+
+  .resizeimage1 img{
+    width: 10vw;
+    margin: auto;
+
+  }
+
   .large-font {
     font-size: 3em;
     transform: scale(1.5);
@@ -29,7 +43,7 @@
   .item {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-    text-align: center;
+  text-align: center;
 }
 
   .three_container {
@@ -41,6 +55,17 @@
     /* background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  .two_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
   .mid_container {
@@ -60,6 +85,56 @@
     margin: 10px;
   }
 
+  #banner {
+    padding: 10px;
+    background-color: #D5DBE1;
+    align-items: flex-start;
+    margin: 5px 0;
+    text-align: left;
+}
+
+#center {
+  align-items: center;
+  text-align: center;
+}
 
 
+.main-title {
+  display: inline-block;
+  opacity: 0;
+  transform: scale(0.8) rotate(0deg);
+  transition: all 0.5s ease-in-out;
+  font-size: 100px;
+}
+
+.large-font {
+  animation: popIn 1.5s ease-out forwards, colorChange 5s linear infinite;
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(-10deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    color: #ff5733; /* オレンジ */
+  }
+  50% {
+    color: #33ff57; /* 緑 */
+  }
+  100% {
+    color: #3357ff; /* 青 */
+  }
+}
   

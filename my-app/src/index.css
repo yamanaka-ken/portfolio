@@ -1,6 +1,10 @@
 /* src/index.css */
+
+
 body {
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
+  /* font-family: 'Caveat', cursive; */
+  font-family: "Rubik Vinyl", serif;
   margin: 0;
   padding: 20px;
   background-color: #f4f4f4;
@@ -13,7 +17,22 @@ body {
   font-size: 30px;
 }
 
-h1, h2 {
+.Name{
+  margin: 0;
+  padding: 0px;
+  text-align: left;
+  font-size: 60px;
+}
+
+h1 {
+  margin: 100px;
+  padding: 10px;
+  text-align: center;
+  transition: font-size 1s, transform 1s;
+  font-size: 40px;
+}
+
+h2 {
   margin: 100px;
   padding: 10px;
   text-align: center;
@@ -33,6 +52,16 @@ h4 {
   text-align: center;
 
 }
+
+.list-1 {
+  /* list-style-type: '👉'; */
+  list-style-type: '👍';
+}
+
+.list-1 li {
+  padding: .3em;
+}
+
 
 
 form{
@@ -66,4 +95,46 @@ width: 100px;
 margin: auto;
 border-radius: 40%;
 
+}
+
+.box1{
+  margin:2em 0;
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.box1:before, .box1:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.box1:before {left: 10px;}
+.box1:after {right: 10px;}
+.box1 p {
+  margin: 0; 
+  padding: 0;
+}
+
+.box2 {
+  margin: 1em 0;
+  background: white;
+}
+.box2 .box-title {
+  font-size: 1.5em;
+  background: white;
+  padding: 1px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin: 20px;
+}
+.box2 p {
+  padding: 15px 20px;
+  margin: 0;
 }
